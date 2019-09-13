@@ -42,15 +42,15 @@ Maven (Ideally comes integrated with Eclipse IDE)
 
 1. Open Eclipse IDE and select the option to "Import an Existing Project" 
 
-![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/1_import_existing_maven_project.png)
+![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/1_import_existing_maven_project.png)
 
 2. Select the Folder Named "TestZooJavaCandidateNumber8" and once it shows it contents press open 
 
-![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/2_import_existing_maven_project.png)
+![Start by Importing and Exiting Project]https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/2_import_existing_maven_project.png)
 
 3. Make sure that your Project's "pom.xml is recognized and click Finish 
 
-![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/3_import_existing_maven_project.png)
+![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/3_import_existing_maven_project.png)
 
 ### Step 4: Change to TestTheZooJavaCandidateNumber8\jars folder and start a Selnium hub and a Selenium node using the latest stand alone version we've included  (Challenge 0)
 
@@ -62,50 +62,32 @@ Hint: Re recommend you use localhost with a localport such as http://localhost:4
 
 5. Once imported, Right-Click on the project end execute "Run As->Maven Install"
 
-![Run Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/4_run_as_maven_install.png)
+![Run Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/4_run_as_maven_install.png)
+
+
+### Step 6:  Verify Maven Build
+
+6. Regardless of whether your tests passed or failed you should see the message "BUILD SUCCESS" in your Maven Console
+
+![Verify Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/6_verify_maven_install.png)
+
+
+### Step 7:  Execute your tests as JUnit/Cucumber
+
+8. RIght-Click on the project object and navigate to the file /src/test/java/Cucumber.Java.TestTheZooJavaNumber8/runTest.java, right-clck on this file and select Run As -> Junit
+
+![Run tests as JUnit](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/7_runs_as_junit_cucumber.png)
+
+### Step 8:  Observe the Results running in Your Junit as Cucumber Scenario Steps
+
+![JUnit Console](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/8_cucumber_tests_executing_with_junit.png)
 
 
 
+### Step 9:  Watch your test Resutls in JUnit Test Window as Cucumber Scenario Steps
 
-```
+![JUnit Console Tests Complete](9_Junit_cases_finished_showed_as_cucumber_scenarios.png)
 
-### Step 2:  Install and Run Eclipse
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live systemz
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - Eclipse 
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
