@@ -8,14 +8,7 @@ This repository is a test project with challenges to give to candidates for the 
 
 ### Prerequisites
 
-These a the only tools you need installed in your box:
-```
-
-Java Virtual Machine (JVM) version 8 or higher
-Eclipse IDE (MAC, Windows, etc.)
-Maven (Ideally integrated with Eclipse IDE)
-
-```
+Am Apple's MAC, Windows's PC, Linux's Computer, or Similar x64 bit processor machine with the instrustry average of CPU, Memory, and Disk Space.
 
 ### Installing
 
@@ -23,17 +16,25 @@ A step by step series of examples that tell you how to get a development env run
 
 ### Step 1:  Install and test JVM
 
-1. Instal JVM and it's dependencies from it's original [Oracle's  Site](https://www.java.com/download/). 
+1. Instal JVM and it's dependencies from it's original [Oracle's Java Download Site](https://www.java.com/download/). 
 2. Follow installation insctructions or installation program until the end.
-3. Open a MAC's Terminal, Window's Command Pront, or Linux Shell window and type the following command:
+3. Open a MAC's Terminal, Window's Command Pront, or Linux Shell's window and type the following command:
 
 ```
     javac
-
 ```
 4. Validate that this command brings a series of options to your screen
 
-##2 Step 1:  Install and Run Ecli
+### Step 2:  Install and Run Eclipse IDE
+
+1. Instal Eclipse Integrated Development Environment for Java  and it's dependencies from it's original [Eclipse Foundation's Downoload Site(https://www.eclipse.org/org/foundation/).
+2. Follow installation insctructions or installation program ends.
+3. Open Eclipse using your most common mechods for running UI Applications
+4. Verify Eclipse IDE runs without problems
+
+### Step 3:  Make sure you can create a Maven Project
+
+
 
 ```
 
