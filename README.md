@@ -1,4 +1,4 @@
-# QA Live Assessments
+# N#8 QA Live Assessments
 
 This project is intended at being an interactive Live Assessment for QA Automators with Interesting Challenges and to Evaluate the Use of Industry Standard QA Automator Techniques.
 
@@ -8,71 +8,76 @@ This repository is a test project with challenges to give to candidates for the 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+An Apple's MAC, Windows's PC, Linux's Computer, or Similar x64 bit processor machine with the instrustry average of CPU, Memory, and Disk Space.
 
-```
-Give examples
-```
+## Installing and Running
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+These are step by step instructionns on how to get a development environment running.  There ar only two tools you need installed in your box and the last two practically come together and properly integrated (All three tools will be fully deployed and integreted soon asn Eclipse is the most popular Develpment Environment for Java):	
+```	
+Java Virtual Machine (JVM) version 8 or higher	
+Eclipse IDE (MAC, Windows, etc.)	
+Maven (Ideally comes integrated with Eclipse IDE)	
 ```
 
-And repeat
+
+### Step 1:  Install and test JVM
+
+1. Instal JVM and it's dependencies from it's original [Oracle's Java Download Site](https://www.java.com/download/). 
+2. Follow installation insctructions or installation program until the end.
+3. Open a MAC's Terminal, Window's Command Pront, or Linux Shell's window and type the following command:
 
 ```
-until finished
+    javac
 ```
+4. Validate that this command brings a series of options to your screen
 
-End with an example of getting some data out of the system or using it for a little demo
+### Step 2:  Install and Run Eclipse IDE
 
-## Running the tests
+1. Instal Eclipse Integrated Development Environment for Java  and it's dependencies from it's original [Eclipse Foundation's Downoload Site](https://www.eclipse.org/org/foundation/).
+2. Follow installation insctructions or installation program ends.
+3. Open Eclipse IDE using your most common method for running UI Applications
+4. Verify Eclipse IDE runs without problems
 
-Explain how to run the automated tests for this system
+### Step 3:  Make sure you can import a and install Maven Project
 
-### Break down into end to end tests
+1. Open Eclipse IDE and select the option to "Import an Existing Project" 
 
-Explain what these tests test and why
+![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/1_import_existing_maven_project.png)
 
-```
-Give an example
-```
+2. Select the Folder Named "TestZooJavaCandidateNumber8" and once it shows it contents press open 
 
-### And coding style tests
+![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/2_import_existing_maven_project.png)
 
-Explain what these tests test and why
+3. Make sure that your Project's "pom.xml is recognized and click Finish 
 
-```
-Give an example
-```
+![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/3_import_existing_maven_project.png)
 
-## Deployment
+4: Change to TestTheZooJavaCandidateNumber8\jars folder and start a Selnium hub and a Selenium node using the latest stand alone version we've included  (Challenge 0)
 
-Add additional notes about how to deploy this on a live system
+Hint: Re recommend you use localhost with a localport such as http://localhost:4444
 
-## Built With
+5. Once imported, Right-Click on the project end execute "Run As->Maven Install"
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+![Run Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/5_run_as_maven_install.png)
 
-## Contributing
+6. The projects test will execute and it shouldn't matter if their pass or fail as long as a the end you get the MAVEN BUILD message a the end of the Install
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+![Verify Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/6_verify_maven_install.png)
 
-## Versioning
+## Running the tests (JUnit / Cucumber)
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+7. You will need JUnit (which installs during Maven Install) to run your tests.  Right click src/test/java/Cucumber.Java.TestTheZooNumber8.runTest.java and select Run As -> Junit
+
+![Run tests as JUnit](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/6_verify_maven_install.png)
+
+
+## Time for the exam
+
+We will interivew for an hour giving you a series of challenge.  Some examples of sample challenges are included here within code comment's but we will give you a set of written instructions with a limit for each one of them since completing each challenge with full test coverage and using the proper standard intrustry takes longer than one hour.  Please coordinate with HR and your recruiter for more instructions on applying to Number8.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* *Andres de Vivanco [andresd24](https://github.com/andresd24)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -83,5 +88,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
+* Number8's trust to execute this project
 * Inspiration
-* etc
