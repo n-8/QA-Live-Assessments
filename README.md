@@ -38,7 +38,7 @@ Maven (Ideally comes integrated with Eclipse IDE)
 3. Open Eclipse IDE using your most common method for running UI Applications
 4. Verify Eclipse IDE runs without problems
 
-### Step 3:  Make sure you can create a Maven Project
+### Step 3:  Make sure you can import a Maven Project
 
 1. Open Eclipse IDE and select the option to "Import an Existing Project" 
 
@@ -52,7 +52,15 @@ Maven (Ideally comes integrated with Eclipse IDE)
 
 ![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/3_import_existing_maven_project.png)
 
-4. Once imported, Right-Click on the project end execute "Run As->Maven Install"
+### Step 4: Change to TestTheZooJavaCandidateNumber8\jars folder and start a Selnium hub and a Selenium node using the latest stand alone version we've included  (Challenge 0)
+
+Hint: Re recommend you use localhost with a localport such as http://localhost:4444
+
+
+### Step 5:  Run Maven->Install
+![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/3_import_existing_maven_project.png)
+
+5. Once imported, Right-Click on the project end execute "Run As->Maven Install"
 
 ![Run Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/4_run_as_maven_install.png)
 
