@@ -8,7 +8,7 @@ This repository is a test project with challenges to give to candidates for the 
 
 ### Prerequisites
 
-Am Apple's MAC, Windows's PC, Linux's Computer, or Similar x64 bit processor machine with the instrustry average of CPU, Memory, and Disk Space.
+An Apple's MAC, Windows's PC, Linux's Computer, or Similar x64 bit processor machine with the instrustry average of CPU, Memory, and Disk Space.n
 
 ### Installing
 
