@@ -59,7 +59,6 @@ Hint: Re recommend you use localhost with a localport such as http://localhost:4
 
 
 ### Step 5:  Run Maven->Install
-![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/3_import_existing_maven_project.png)
 
 5. Once imported, Right-Click on the project end execute "Run As->Maven Install"
 
