@@ -1,4 +1,4 @@
-# N-8 QA Live Assessments
+# N#8 QA Live Assessments
 
 This project is intended at being an interactive Live Assessment for QA Automators with Interesting Challenges and to Evaluate the Use of Industry Standard QA Automator Techniques.
 
