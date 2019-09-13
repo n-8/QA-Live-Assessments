@@ -4,7 +4,7 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This repository is a test project with challenges to give to candidates for the QA Automator role at [Number8](http://number8.com).  It consists of a Behavioral-Driven Delveopment project using Page Object Model (POM) to test the site application for a [Zoo Web App](https://qa.number8.com)
 
 ### Prerequisites
 
