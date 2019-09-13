@@ -27,7 +27,7 @@ A step by step series of examples that tell you how to get a development env run
 
 ### Step 2:  Install and Run Eclipse IDE
 
-1. Instal Eclipse Integrated Development Environment for Java  and it's dependencies from it's original [Eclipse Foundation's Downoload Site(https://www.eclipse.org/org/foundation/).
+1. Instal Eclipse Integrated Development Environment for Java  and it's dependencies from it's original [Eclipse Foundation's Downoload Site](https://www.eclipse.org/org/foundation/).
 2. Follow installation insctructions or installation program ends.
 3. Open Eclipse using your most common mechods for running UI Applications
 4. Verify Eclipse IDE runs without problems
