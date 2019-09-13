@@ -19,6 +19,7 @@ Eclipse IDE (MAC, Windows, etc.)
 Maven (Ideally comes integrated with Eclipse IDE)	
 ```
 
+## Part 1:  Eclipse
 
 ### Step 1:  Install and test JVM
 
@@ -83,11 +84,12 @@ Hint: Re recommend you use localhost with a localport such as http://localhost:4
 ![JUnit Console](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/8_cucumber_tests_executing_with_junit.png)
 
 
-
 ### Step 9:  Watch your test Resutls in JUnit Test Window as Cucumber Scenario Steps
 
-![JUnit Console Tests Complete](9_Junit_cases_finished_showed_as_cucumber_scenarios.png)
+![JUnit Console Tests Complete](https://github.com/n-8/QA-Live-Assessments/blob/andresd24-readme/readme_images/9_Junit_cases_finished_showed_as_cucumber_scenarios.png)
 
+
+## Part 2:  Postman
 
 ## Contributing
 
@@ -99,7 +101,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Andres de Vivanco* - *Test Project* - [andresd24](https://github.com/andresd24)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -110,5 +112,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
+* Number8 for the trust of working in this project
 * Inspiration
 * etc
