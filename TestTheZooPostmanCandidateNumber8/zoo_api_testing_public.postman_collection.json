@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "d16a9101-e5ee-4419-8ccc-4599513fa923",
+		"name": "zoo_api_testing_public",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login an Create",
+			"item": [
+				{
+					"name": "Create a Panda",
+					"item": [
+						{
+							"name": "create the Panda",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "19e1d101-5294-4098-aa89-e1258848674c",
+										"exec": [
+											"",
+											"",
+											"",
+											"",
+											"",
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "21304aea-8cb8-48e4-90b9-927f1f85f6af",
+										"exec": [
+											"",
+											"pm.test(\"Response time is less than 200ms\", function () {",
+											"    pm.expect(pm.response.responseTime).to.be.below(200);",
+											"});",
+											"",
+											"",
+											"",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkbWluQGFkbWluLmNvbSIsIm5iZiI6MTU2ODMzNDI4MiwiZXhwIjoxNTY4OTM5MDgyLCJpYXQiOjE1NjgzMzQyODJ9.ksA0LkNzIzAhdE8Vea4HpJZK5DBcsA7reh-tyCkfdP0",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"_id\":\"0\",\"name\":\"Panda\",\"description\":\"C\",\"year\":2003,\"image\":\"\",\"user\":{\"email\":\"admin@admin.com\",\"_id\":\"admin\",\"image\":null,\"name\":\"admin\",\"role\":\"ROLE_ADMIN\",\"surname\":\"\"}}"
+								},
+								"url": {
+									"raw": "https://qa.number8.com/api/animal",
+									"protocol": "https",
+									"host": [
+										"qa",
+										"number8",
+										"com"
+									],
+									"path": [
+										"api",
+										"animal"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "8468beac-d61c-4cf9-b397-e82f7fb69750",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "600c9b9c-0e6a-43d3-85cc-b4b10d2e9f6a",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Login and Delete the Tiger",
+					"item": [
+						{
+							"name": "Log in and get the token",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "416d8caa-e608-4657-9a4d-7309f1162981",
+										"exec": [
+											"",
+											"",
+											"pm.test(\"Response time is less than 2000ms\", function () {",
+											"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+											"});",
+											"",
+											"",
+											"",
+											"pm.test(\"put the token in global\", function() {",
+											"",
+											"    var jsonData = pm.response.json();",
+											"    //pm.expect(jsonData.error).to.eql(false);",
+											"    ",
+											"    pm.expect(jsonData.token).to.not.eql(\"\");",
+											"    //pm.response.to.have.jsonBody(\"token\");",
+											"    ex_token = jsonData.token,",
+											"    ",
+											"    console.log(ex_token);",
+											"",
+											"    pm.globals.set(\"ex_token\", ex_token);",
+											"",
+											"});",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"username\": \"admin@admin.com\", \"password\": \"admin\"}"
+								},
+								"url": {
+									"raw": "https://qa.number8.com/api/login",
+									"protocol": "https",
+									"host": [
+										"qa",
+										"number8",
+										"com"
+									],
+									"path": [
+										"api",
+										"login"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete the Tiger",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "e452ac30-0d2c-4e99-8c3b-6ec027c3ae5f",
+										"exec": [
+											"",
+											"",
+											"var ex_id = pm.globals.get(\"ex_id\");",
+											"console.log(ex_id);"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "94305e14-f454-4236-9cc2-9a0b451263aa",
+										"exec": [
+											"pm.test(\"Response time is less than 200ms\", function () {",
+											"    pm.expect(pm.response.responseTime).to.be.below(200);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://qa.number8.com/api/animal/{{ex_id}}",
+									"protocol": "https",
+									"host": [
+										"qa",
+										"number8",
+										"com"
+									],
+									"path": [
+										"api",
+										"animal",
+										"{{ex_id}}"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "365e001b-d3e8-4994-ab8e-67b8b87161a8",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "9c7c334f-d196-45ef-ba64-099b869a4c93",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "List Animals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
