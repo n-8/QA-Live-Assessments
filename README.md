@@ -23,18 +23,21 @@ A step by step series of examples that tell you how to get a development env run
 
 ### Step 1:  Install and test JVM
 
+1. Instal JVM and it's dependencies from it's original [Oracle's  Site](https://www.java.com/download/). 
+2. Follow installation insctructions or installation program until the end.
+3. Open a MAC's Terminal, Window's Command Pront, or Linux Shell window and type the following command:
+
 ```
-1.1 - Instal JVM and it's dependencies from it's original [Oracle's  Site](https://www.java.com/download/). 
-1.2 - Follow installation insctructions or installation program until the end.
-1.3 - Open a MAC's Terminal, Window's Command Pront, or Linux Shell window and type the following command:
+    javac
 
-javac
+```
+4. Validate that this command brings a series of options to your screen
 
-1.4 - Validate that it prints a series of options displayed in the screen.
+##2 Step 1:  Install and Run Ecli
 
-``
+```
 
-### Step 1:  Install and test JVM
+### Step 2:  Install and Run Eclipse
 
 ```
 until finished
