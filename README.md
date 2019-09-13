@@ -35,10 +35,27 @@ Maven (Ideally comes integrated with Eclipse IDE)
 
 1. Instal Eclipse Integrated Development Environment for Java  and it's dependencies from it's original [Eclipse Foundation's Downoload Site](https://www.eclipse.org/org/foundation/).
 2. Follow installation insctructions or installation program ends.
-3. Open Eclipse using your most common mechods for running UI Applications
+3. Open Eclipse IDE using your most common method for running UI Applications
 4. Verify Eclipse IDE runs without problems
 
 ### Step 3:  Make sure you can create a Maven Project
+
+1. Open Eclipse IDE and select the option to "Import an Existing Project" 
+
+![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/1_import_existing_maven_project.png)
+
+2. Select the Folder Named "TestZooJavaCandidateNumber8" and once it shows it contents press open 
+
+![Start by Importing and Exiting Project](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/2_import_existing_maven_project.png)
+
+3. Make sure that your Project's "pom.xml is recognized and click Finish 
+
+![Make Sure your pom.xml is Selected](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/3_import_existing_maven_project.png)
+
+4. Once imported, Right-Click on the project end execute "Run As->Maven Install"
+
+![Run Maven Install](https://github.com/n-8/QA-Live-Assessments/blob/master/readme_images/4_run_as_maven_install.png)
+
 
 
 
