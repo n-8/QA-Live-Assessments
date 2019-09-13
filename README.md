@@ -12,7 +12,13 @@ An Apple's MAC, Windows's PC, Linux's Computer, or Similar x64 bit processor mac
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+These are step by step instructionns on how to get a development environment running.  There ar only two tools you need installed in your box and the last two practically come together and properly integrated (All three tools will be fully deployed and integreted soon asn Eclipse is the most popular Develpment Environment for Java):	
+```	
+Java Virtual Machine (JVM) version 8 or higher	
+Eclipse IDE (MAC, Windows, etc.)	
+Maven (Ideally comes integrated with Eclipse IDE)	
+```
+
 
 ### Step 1:  Install and test JVM
 
