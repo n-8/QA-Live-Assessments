@@ -8,23 +8,33 @@ This repository is a test project with challenges to give to candidates for the 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+These a the only tools you need installed in your box:
 ```
-Give examples
+
+Java Virtual Machine (JVM) version 8 or higher
+Eclipse IDE (MAC, Windows, etc.)
+Maven (Ideally integrated with Eclipse IDE)
+
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+### Step 1:  Install and test JVM
 
 ```
-Give the example
-```
+1.1 - Instal JVM and it's dependencies from it's original [Oracle's  Site](https://www.java.com/download/). 
+1.2 - Follow installation insctructions or installation program until the end.
+1.3 - Open a MAC's Terminal, Window's Command Pront, or Linux Shell window and type the following command:
 
-And repeat
+javac
+
+1.4 - Validate that it prints a series of options displayed in the screen.
+
+``
+
+### Step 1:  Install and test JVM
 
 ```
 until finished
@@ -54,11 +64,11 @@ Give an example
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Add additional notes about how to deploy this on a live systemz
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - Eclipse 
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
